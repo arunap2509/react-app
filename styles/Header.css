@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 30px;
+    height: 60px;
+    background: rgba(139, 145, 113, 0.096);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a {
+    cursor: pointer;
+    padding: 0 20px;
+    padding-bottom: 2px;
+    font-size: 1.2rem;
+}
+
+.nav-links a:hover {
+    border-bottom: 2px solid #000;
+}

@@ -1,0 +1,45 @@
+.expense-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px;
+}
+
+.total {
+    margin-top: 10px;
+    color: blue;
+}
+
+.expense-card {
+    width: 300px;
+    min-height: 80px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    overflow: hidden;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.expense-card:hover {
+    transform: scale(1.1);
+}
+
+.expense-card h2 {
+    margin-bottom: 4px;
+}
+
+.expense-info {
+    margin-bottom: 5px;
+}
+
+.expense-info span:nth-of-type(2) {
+    padding: 0 20px;
+}
+
+.amt::before {
+    content: 'Rs. '
+}
